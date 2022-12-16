@@ -1,0 +1,19 @@
+
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4 ">
+        <div class="container border   ">
+            <img src="../../assets/bank logo.png" alt="">
+
+            <h6 style="text-align: center; margin-top: 20px;">{{aim}}</h6>
+            <input (change)="acnoChange($event)" type="email" class="form-control mt-5 border border-3 rounded-pill" id="login_acno" [placeholder]="account">
+           
+            <input (change)="pswdChange($event)" type="password" class="form-control mt-5 rounded-pill" id="login_pswd" placeholder="Password">
+            <button type="button " (click)="login()"  class="btn btn-primary mt-5  d-flex mx-auto btn-lg rounded-pill">Login</button> 
+       
+           <div class="link "><a  href="">Forgot password ? </a> <b>Or</b>  <a href="./index.html">Signup</a></div> 
+        </div>
+        </div>
+    </div>
+    <div class="col-4"></div>
+<app-register></app-register>

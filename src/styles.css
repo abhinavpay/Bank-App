@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+.container{
+
+
+
+    width: 400px;
+    height: 454px;
+    margin-top: 200px;
+    background-color: rgb(240, 236, 233);
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px ;
+}
+
+img{
+    width: 88px;
+    height: 80px;
+    border: 5px solid rgb(191, 186, 186);
+    border-radius: 50%;
+    margin-left: 123px;
+    margin-top: 17px;
+    box-shadow: 5px 2px 5px ;
+}
+
+input{
+    box-shadow: -1px -3px  2px ;
+}
+
+.link{
+    margin-top: 21px;
+    margin-left: 69px;
+    
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.link-2{
+  
+    margin-left: 153px;
+    
+    
+}
+
+.link-2 a{
+    text-decoration: none;
+    font-size: 18px;
+}
